@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react"],
+  "plugins": [
+    "cypress"
+  ],
+  "env": {
+    "cypress/globals": true
+  },
+  "rules": {
+    "object-curly-spacing": ["error", "always"],
+    "react/jsx-curly-spacing": [2, { "when": "always", "children": true }]
+  }
+}

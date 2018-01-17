@@ -1,0 +1,33 @@
+{
+  "name": "@reloaddk/eslint-config-reload",
+  "version": "0.0.1",
+  "description": "Writing JavaScript, the Reload way.",
+  "main": "index.js",
+  "repository": {
+    "type":"git",
+    "url": "https://github.com/reload/eslint-config-reload"
+  },
+  "author": {
+    "name": "Lasse Borly",
+    "email": "lasse@reload.dk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reload/eslint-config-reload/issues"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "babel-eslint": "^8.2.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-cypress": "^2.0.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.15.0"
+  }
+}
